@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <attr name="cardBackgroundColor" format="color" />
+    <attr name="shadowBackgroundColor" format="color" />
     <attr name="shadowCornerRadius" format="dimension" />
     <attr name="shadowElevation" format="dimension" />
     <attr name="shadowMaxElevation" format="dimension" />
-    <attr name="cardUseCompatPadding" format="dimension" />
-    <attr name="cardPreventCornerOverlap" format="boolean" />
-    <attr name="contentPadding" format="dimension" />
-    <attr name="contentPaddingLeft" format="dimension" />
-    <attr name="contentPaddingTop" format="dimension" />
-    <attr name="contentPaddingRight" format="dimension" />
-    <attr name="contentPaddingBottom" format="dimension" />
-    <attr name="android_minWidth" format="dimension" />
-    <attr name="android_minHeight" format="dimension" />
+    <attr name="shadowUseCompatPadding" format="dimension" />
+    <attr name="shadowPreventCornerOverlap" format="boolean" />
+    <attr name="contentPadding" />
+    <attr name="contentPaddingLeft" />
+    <attr name="contentPaddingTop" />
+    <attr name="contentPaddingRight" />
+    <attr name="contentPaddingBottom" />
+    <attr name="android_minWidth" />
+    <attr name="android_minHeight" />
     <attr name="insetShadow" format="dimension" />
     <attr name="shadowStartColor" format="color" />
     <attr name="shadowEndColor" format="color" />
@@ -33,7 +33,7 @@
         <attr name="android_minHeight" />
         <attr name="insetShadow" />
         <attr name="shadowStartColor" />
-        <attr name="shadowEndColor"  />
+        <attr name="shadowEndColor" />
     </declare-styleable>
 
     <declare-styleable name="ShadowFrameLayout">
@@ -52,7 +52,7 @@
         <attr name="android_minHeight" />
         <attr name="insetShadow" />
         <attr name="shadowStartColor" />
-        <attr name="shadowEndColor"  />
+        <attr name="shadowEndColor" />
     </declare-styleable>
 
     <declare-styleable name="ShadowRelativeLayout">
@@ -71,8 +71,8 @@
         <attr name="android_minHeight" />
         <attr name="insetShadow" />
         <attr name="shadowStartColor" />
-        <attr name="shadowEndColor"  />
+        <attr name="shadowEndColor" />
     </declare-styleable>
 
-    <attr name="ShadowLayoutStyle" format="reference"/>
+    <attr name="ShadowLayoutStyle" format="reference" />
 </resources>
