@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <com.app.shadow.ShadowFrameLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        app:shadowStartColor="#7fe3e3e3"
+        app:shadowEndColor="#00e3e3e3"
+        app:shadowElevation="8dp">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="ShadowFrameLayout"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp" />
+    </com.app.shadow.ShadowFrameLayout>
+
+
+    <com.app.shadow.ShadowLinearLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:shadowElevation="8dp">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:text="ShadowLinearLayout"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp" />
+    </com.app.shadow.ShadowLinearLayout>
+
+
+    <com.app.shadow.ShadowRelativeLayout
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:shadowElevation="8dp">
+
+        <TextView
+            android:layout_width="200dp"
+            android:layout_height="30dp"
+            android:layout_centerHorizontal="true"
+            android:text="ShadowRelativeLayout"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp" />
+    </com.app.shadow.ShadowRelativeLayout>
+</LinearLayout>

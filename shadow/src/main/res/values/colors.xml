@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="shadow_light_background">#FFFFFF</color>
+    <color name="shadow_dark_background">#666666</color>
+    <color name="shadow_start_color">#33666666</color>
+    <color name="shadow_end_color">#00666666</color>
+</resources>

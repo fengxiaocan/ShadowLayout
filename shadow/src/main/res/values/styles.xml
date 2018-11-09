@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ShadowLayoutStyle">
+        <item name="shadowBackgroundColor">#FFFFFF</item>
+        <item name="shadowCornerRadius">8dp</item>
+        <item name="shadowElevation">8dp</item>
+        <item name="shadowMaxElevation">0dp</item>
+        <item name="shadowUseCompatPadding">0dp</item>
+        <item name="shadowPreventCornerOverlap">true</item>
+        <item name="contentPadding">0dp</item>
+        <item name="contentPaddingLeft">0dp</item>
+        <item name="contentPaddingTop">0dp</item>
+        <item name="contentPaddingRight">0dp</item>
+        <item name="contentPaddingBottom">0dp</item>
+        <item name="android_minWidth">0dp</item>
+        <item name="android_minHeight">0dp</item>
+        <item name="insetShadow">1dp</item>
+        <item name="shadowStartColor">#33666666</item>
+        <item name="shadowEndColor">#00666666</item>
+    </style>
+</resources>
