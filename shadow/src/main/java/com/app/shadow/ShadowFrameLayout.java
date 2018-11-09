@@ -136,27 +136,27 @@ public class ShadowFrameLayout extends FrameLayout {
 		this.mPreventCornerOverlap = a
 				.getBoolean(R.styleable.ShadowFrameLayout_shadowPreventCornerOverlap,true);
 		int defaultPadding = a
-				.getDimensionPixelSize(R.styleable.ShadowFrameLayout_contentPadding,0);
+				.getDimensionPixelSize(R.styleable.ShadowFrameLayout_shadowContentPadding,0);
 		this.mContentPadding.left = a
-				.getDimensionPixelSize(R.styleable.ShadowFrameLayout_contentPaddingLeft,
+				.getDimensionPixelSize(R.styleable.ShadowFrameLayout_shadowContentPaddingLeft,
 				                       defaultPadding);
 		this.mContentPadding.top = a
-				.getDimensionPixelSize(R.styleable.ShadowFrameLayout_contentPaddingTop,
+				.getDimensionPixelSize(R.styleable.ShadowFrameLayout_shadowContentPaddingTop,
 				                       defaultPadding);
 		this.mContentPadding.right = a
-				.getDimensionPixelSize(R.styleable.ShadowFrameLayout_contentPaddingRight,
+				.getDimensionPixelSize(R.styleable.ShadowFrameLayout_shadowContentPaddingRight,
 				                       defaultPadding);
 		this.mContentPadding.bottom = a
-				.getDimensionPixelSize(R.styleable.ShadowFrameLayout_contentPaddingBottom,
+				.getDimensionPixelSize(R.styleable.ShadowFrameLayout_shadowContentPaddingBottom,
 				                       defaultPadding);
 		if (elevation > maxElevation) {
 			maxElevation = elevation;
 		}
 		
 		this.mUserSetMinWidth = a
-				.getDimensionPixelSize(R.styleable.ShadowFrameLayout_android_minWidth,0);
+				.getDimensionPixelSize(R.styleable.ShadowFrameLayout_shadow_android_minWidth,0);
 		this.mUserSetMinHeight = a
-				.getDimensionPixelSize(R.styleable.ShadowFrameLayout_android_minHeight,0);
+				.getDimensionPixelSize(R.styleable.ShadowFrameLayout_shadow_android_minHeight,0);
 		a.recycle();
 		IMPL.initialize(this.mCardViewDelegate,backgroundColor,radius,elevation,maxElevation,
 		                shadowStartColor,shadowEndColor,insetShadow);

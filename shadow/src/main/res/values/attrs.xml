@@ -6,13 +6,13 @@
     <attr name="shadowMaxElevation" format="dimension" />
     <attr name="shadowUseCompatPadding" format="dimension" />
     <attr name="shadowPreventCornerOverlap" format="boolean" />
-    <attr name="contentPadding" />
-    <attr name="contentPaddingLeft" />
-    <attr name="contentPaddingTop" />
-    <attr name="contentPaddingRight" />
-    <attr name="contentPaddingBottom" />
-    <attr name="android_minWidth" />
-    <attr name="android_minHeight" />
+    <attr name="shadowContentPadding" format="dimension"/>
+    <attr name="shadowContentPaddingLeft" format="dimension"/>
+    <attr name="shadowContentPaddingTop" format="dimension"/>
+    <attr name="shadowContentPaddingRight" format="dimension"/>
+    <attr name="shadowContentPaddingBottom" format="dimension"/>
+    <attr name="shadow_android_minWidth" format="dimension"/>
+    <attr name="shadow_android_minHeight" format="dimension"/>
     <attr name="insetShadow" format="dimension" />
     <attr name="shadowStartColor" format="color" />
     <attr name="shadowEndColor" format="color" />
@@ -24,13 +24,13 @@
         <attr name="shadowMaxElevation" />
         <attr name="shadowUseCompatPadding" />
         <attr name="shadowPreventCornerOverlap" />
-        <attr name="contentPadding" />
-        <attr name="contentPaddingLeft" />
-        <attr name="contentPaddingTop" />
-        <attr name="contentPaddingRight" />
-        <attr name="contentPaddingBottom" />
-        <attr name="android_minWidth" />
-        <attr name="android_minHeight" />
+        <attr name="shadowContentPadding" />
+        <attr name="shadowContentPaddingLeft" />
+        <attr name="shadowContentPaddingTop" />
+        <attr name="shadowContentPaddingRight" />
+        <attr name="shadowContentPaddingBottom" />
+        <attr name="shadow_android_minWidth" />
+        <attr name="shadow_android_minHeight" />
         <attr name="insetShadow" />
         <attr name="shadowStartColor" />
         <attr name="shadowEndColor" />
@@ -43,13 +43,13 @@
         <attr name="shadowMaxElevation" />
         <attr name="shadowUseCompatPadding" />
         <attr name="shadowPreventCornerOverlap" />
-        <attr name="contentPadding" />
-        <attr name="contentPaddingLeft" />
-        <attr name="contentPaddingTop" />
-        <attr name="contentPaddingRight" />
-        <attr name="contentPaddingBottom" />
-        <attr name="android_minWidth" />
-        <attr name="android_minHeight" />
+        <attr name="shadowContentPadding" />
+        <attr name="shadowContentPaddingLeft" />
+        <attr name="shadowContentPaddingTop" />
+        <attr name="shadowContentPaddingRight" />
+        <attr name="shadowContentPaddingBottom" />
+        <attr name="shadow_android_minWidth" />
+        <attr name="shadow_android_minHeight" />
         <attr name="insetShadow" />
         <attr name="shadowStartColor" />
         <attr name="shadowEndColor" />
@@ -62,13 +62,13 @@
         <attr name="shadowMaxElevation" />
         <attr name="shadowUseCompatPadding" />
         <attr name="shadowPreventCornerOverlap" />
-        <attr name="contentPadding" />
-        <attr name="contentPaddingLeft" />
-        <attr name="contentPaddingTop" />
-        <attr name="contentPaddingRight" />
-        <attr name="contentPaddingBottom" />
-        <attr name="android_minWidth" />
-        <attr name="android_minHeight" />
+        <attr name="shadowContentPadding" />
+        <attr name="shadowContentPaddingLeft" />
+        <attr name="shadowContentPaddingTop" />
+        <attr name="shadowContentPaddingRight" />
+        <attr name="shadowContentPaddingBottom" />
+        <attr name="shadow_android_minWidth" />
+        <attr name="shadow_android_minHeight" />
         <attr name="insetShadow" />
         <attr name="shadowStartColor" />
         <attr name="shadowEndColor" />
